@@ -11,7 +11,7 @@ const BookCard = ({ book }) => {
     const edition = book.edition_count || "?";
     const cover = book.cover_i
         ? `https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`
-        : "/images/placeholder.png";
+        : "/openlibrary/placeholder.png";
 
     return (
         <Card sx={{ maxWidth: 280, margin: "auto" }}>
